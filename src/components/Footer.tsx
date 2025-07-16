@@ -155,9 +155,7 @@ const Footer = () => {
         >
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="flex items-center text-sm text-muted-foreground">
-              <span>© 2024 Ryan. Made with</span>
-              <Heart className="w-4 h-4 text-red-500 mx-1" />
-              <span>for the DevOps community</span>
+              <span>© 2025 Ryan | DevOps-Driven. Business-Led. Growth Obsessed.</span>
             </div>
 
             <div className="flex items-center gap-4">

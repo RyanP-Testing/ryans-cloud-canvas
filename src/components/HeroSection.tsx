@@ -97,18 +97,14 @@ const HeroSection = () => {
               className="text-2xl lg:text-3xl font-heading font-semibold mb-4 text-muted-foreground"
             >
               DevOps Engineer, Cloud Architect,{" "}
-              <span className="text-accent">Business Strategist</span>
+              <span className="text-accent">SaaS Entrepreneur</span>
             </motion.h2>
 
             <motion.p
               variants={textVariants}
               className="text-xl text-muted-foreground mb-8 max-w-2xl"
             >
-              Scaling infrastructure. Automating operations. Driving growth.
-              <br />
-              <span className="text-foreground font-medium">
-                Tech is a tool. Strategy is the weapon.
-              </span>
+              I scale cloud infrastructure and businesses. From Kubernetes clusters to startup strategy — I help companies build smarter, faster, and leaner.
             </motion.p>
 
             <motion.div
@@ -121,7 +117,7 @@ const HeroSection = () => {
                 className="group relative overflow-hidden bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 rounded-2xl font-semibold transition-all duration-300 hover:scale-105 hover:shadow-glow"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  Work With Me
+                  Let's Scale Your Business
                   <ExternalLink className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </span>
                 <motion.div
@@ -136,7 +132,7 @@ const HeroSection = () => {
                 className="group px-8 py-4 rounded-2xl font-semibold border-2 hover:bg-card hover:scale-105 transition-all duration-300"
               >
                 <span className="flex items-center gap-2">
-                  Download Resume
+                  Work With Me
                   <Download className="w-4 h-4 group-hover:translate-y-1 transition-transform" />
                 </span>
               </Button>

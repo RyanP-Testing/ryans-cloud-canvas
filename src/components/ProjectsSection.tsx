@@ -10,7 +10,7 @@ const ProjectsSection = () => {
     {
       id: 1,
       title: "AI HR Co-Pilot",
-      description: "Automating hiring and performance management at scale. Full-stack SaaS platform with AI-powered candidate screening and automated workflows.",
+      description: "Built to streamline hiring for growing teams. From CV parsing to retention, it's HR on autopilot. Full-stack SaaS platform with AI-powered candidate screening and automated workflows.",
       image: projectHr,
       tech: ["React", "Node.js", "AWS", "Docker", "Terraform"],
       outcome: "60% faster hiring process",
@@ -21,7 +21,7 @@ const ProjectsSection = () => {
     {
       id: 2,
       title: "Microsite SaaS Platform",
-      description: "1:1 personalized outreach platform that replaces generic DMs. Scalable infrastructure handling millions of personalized microsites.",
+      description: "Turn cold outreach into high-converting landing pages. Ideal for founders, recruiters, and closers. Scalable infrastructure handling millions of personalized microsites.",
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
       tech: ["Next.js", "PostgreSQL", "Kubernetes", "Redis", "GCP"],
       outcome: "300% increase in response rates",
@@ -31,8 +31,8 @@ const ProjectsSection = () => {
     },
     {
       id: 3,
-      title: "Infrastructure Optimization",
-      description: "Complete infrastructure audit and optimization for a fintech startup. Redesigned CI/CD, implemented monitoring, and automated scaling.",
+      title: "Cloud Cost Optimization",
+      description: "Saved ₹12Cr+ in wasted infra spend. Business-first DevOps = serious ROI. Complete infrastructure audit and optimization for a fintech startup.",
       image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=600&fit=crop",
       tech: ["Kubernetes", "Terraform", "Prometheus", "Grafana", "AWS"],
       outcome: "₹12Cr cloud costs saved",

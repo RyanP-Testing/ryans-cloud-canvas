@@ -104,12 +104,11 @@ const AboutSection = () => {
                     <h3 className="text-2xl font-bold font-heading">What I Believe</h3>
                   </div>
                   <div className="space-y-4">
-                    <blockquote className="text-lg italic text-accent font-medium border-l-4 border-accent pl-4">
-                      "Tech is a tool. Strategy is the weapon."
-                    </blockquote>
+                    <p className="text-muted-foreground leading-relaxed mb-4">
+                      "Tech isn't just about uptime. It's about outcomes. I believe infrastructure should drive revenue, not just reliability."
+                    </p>
                     <p className="text-muted-foreground leading-relaxed">
-                      Great infrastructure isn't just about uptime—it's about enabling business velocity, 
-                      reducing costs, and creating competitive advantages.
+                      "I bridge the gap between DevOps and business growth — helping founders and CTOs make tech decisions that serve revenue."
                     </p>
                   </div>
                 </CardContent>

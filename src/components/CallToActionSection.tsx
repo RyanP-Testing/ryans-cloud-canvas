@@ -82,18 +82,13 @@ const CallToActionSection = () => {
                   transition={{ duration: 0.6, delay: 0.2 }}
                   viewport={{ once: true }}
                 >
-                  Let's scale your{" "}
+                  Let's scale your startup, your cloud{" "}
                   <span className="bg-gradient-primary bg-clip-text text-transparent">
                     infrastructure
                   </span>
-                  ,<br />
-                  your{" "}
-                  <span className="bg-gradient-primary bg-clip-text text-transparent">
-                    startup
-                  </span>
                   , or your{" "}
                   <span className="bg-gradient-primary bg-clip-text text-transparent">
-                    team
+                    revenue engine
                   </span>{" "}
                   — together.
                 </motion.h2>
@@ -146,16 +141,16 @@ const CallToActionSection = () => {
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                 >
-                  <Button
-                    size="lg"
-                    variant="outline"
-                    className="group px-8 py-4 rounded-2xl font-semibold text-lg border-2 hover:bg-card hover:border-primary/50 transition-all duration-300"
-                  >
-                    <span className="flex items-center gap-2">
-                      Start a Conversation
-                      <MessageCircle className="w-5 h-5 group-hover:scale-110 transition-transform" />
-                    </span>
-                  </Button>
+                    <Button
+                      size="lg"
+                      variant="outline"
+                      className="group px-8 py-4 rounded-2xl font-semibold text-lg border-2 hover:bg-card hover:border-primary/50 transition-all duration-300"
+                    >
+                      <span className="flex items-center gap-2">
+                        Need a Fractional CTO?
+                        <MessageCircle className="w-5 h-5 group-hover:scale-110 transition-transform" />
+                      </span>
+                    </Button>
                 </motion.div>
               </motion.div>
 

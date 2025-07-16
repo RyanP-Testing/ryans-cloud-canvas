@@ -2,9 +2,11 @@ import { motion } from "framer-motion";
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
 import StatsSection from "@/components/StatsSection";
+import WhyWorkWithMeSection from "@/components/WhyWorkWithMeSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import BlogSection from "@/components/BlogSection";
+import LeadMagnetSection from "@/components/LeadMagnetSection";
 import CallToActionSection from "@/components/CallToActionSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
@@ -38,6 +40,11 @@ const Index = () => {
           <StatsSection />
         </section>
 
+        {/* Why Work With Me Section */}
+        <section id="why-work-with-me">
+          <WhyWorkWithMeSection />
+        </section>
+
         {/* Projects Section */}
         <section id="projects">
           <ProjectsSection />
@@ -50,6 +57,9 @@ const Index = () => {
         <section id="blog">
           <BlogSection />
         </section>
+
+        {/* Lead Magnet Section */}
+        <LeadMagnetSection />
 
         {/* Call to Action Section */}
         <CallToActionSection />
