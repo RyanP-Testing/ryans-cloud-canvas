@@ -7,6 +7,7 @@ import ProjectsSection from "@/components/ProjectsSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import BlogSection from "@/components/BlogSection";
 import LeadMagnetSection from "@/components/LeadMagnetSection";
+import ScaleTogetherSection from "@/components/ScaleTogetherSection";
 import CallToActionSection from "@/components/CallToActionSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
@@ -60,6 +61,9 @@ const Index = () => {
 
         {/* Lead Magnet Section */}
         <LeadMagnetSection />
+
+        {/* Scale Together Section */}
+        <ScaleTogetherSection />
 
         {/* Call to Action Section */}
         <CallToActionSection />
